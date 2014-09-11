@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AFCD12719C1B73200A275EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AFCD12619C1B73200A275EC /* Foundation.framework */; };
+		8AFCD12919C1B73200A275EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AFCD12819C1B73200A275EC /* CoreGraphics.framework */; };
+		8AFCD12B19C1B73200A275EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AFCD12A19C1B73200A275EC /* UIKit.framework */; };
+		8AFCD13119C1B73200A275EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AFCD12F19C1B73200A275EC /* InfoPlist.strings */; };
+		8AFCD13319C1B73200A275EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCD13219C1B73200A275EC /* main.m */; };
+		8AFCD13719C1B73200A275EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCD13619C1B73200A275EC /* AppDelegate.m */; };
+		8AFCD13A19C1B73200A275EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFCD13819C1B73200A275EC /* Main.storyboard */; };
+		8AFCD13D19C1B73200A275EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCD13C19C1B73200A275EC /* ViewController.m */; };
+		8AFCD13F19C1B73200A275EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFCD13E19C1B73200A275EC /* Images.xcassets */; };
+		8AFCD14619C1B73200A275EC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AFCD14519C1B73200A275EC /* XCTest.framework */; };
+		8AFCD14719C1B73200A275EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AFCD12619C1B73200A275EC /* Foundation.framework */; };
+		8AFCD14819C1B73200A275EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AFCD12A19C1B73200A275EC /* UIKit.framework */; };
+		8AFCD15019C1B73200A275EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AFCD14E19C1B73200A275EC /* InfoPlist.strings */; };
+		8AFCD15219C1B73200A275EC /* BenjaminNotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCD15119C1B73200A275EC /* BenjaminNotesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AFCD14919C1B73200A275EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AFCD11B19C1B73100A275EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AFCD12219C1B73200A275EC;
+			remoteInfo = BenjaminNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AFCD12319C1B73200A275EC /* BenjaminNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BenjaminNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFCD12619C1B73200A275EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8AFCD12819C1B73200A275EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8AFCD12A19C1B73200A275EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8AFCD12E19C1B73200A275EC /* BenjaminNotes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BenjaminNotes-Info.plist"; sourceTree = "<group>"; };
+		8AFCD13019C1B73200A275EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AFCD13219C1B73200A275EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AFCD13419C1B73200A275EC /* BenjaminNotes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BenjaminNotes-Prefix.pch"; sourceTree = "<group>"; };
+		8AFCD13519C1B73200A275EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8AFCD13619C1B73200A275EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8AFCD13919C1B73200A275EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AFCD13B19C1B73200A275EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8AFCD13C19C1B73200A275EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8AFCD13E19C1B73200A275EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8AFCD14419C1B73200A275EC /* BenjaminNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenjaminNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFCD14519C1B73200A275EC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8AFCD14D19C1B73200A275EC /* BenjaminNotesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BenjaminNotesTests-Info.plist"; sourceTree = "<group>"; };
+		8AFCD14F19C1B73200A275EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8AFCD15119C1B73200A275EC /* BenjaminNotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BenjaminNotesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AFCD12019C1B73200A275EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFCD12919C1B73200A275EC /* CoreGraphics.framework in Frameworks */,
+				8AFCD12B19C1B73200A275EC /* UIKit.framework in Frameworks */,
+				8AFCD12719C1B73200A275EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFCD14119C1B73200A275EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFCD14619C1B73200A275EC /* XCTest.framework in Frameworks */,
+				8AFCD14819C1B73200A275EC /* UIKit.framework in Frameworks */,
+				8AFCD14719C1B73200A275EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AFCD11A19C1B73100A275EC = {
+			isa = PBXGroup;
+			children = (
+				8AFCD12C19C1B73200A275EC /* BenjaminNotes */,
+				8AFCD14B19C1B73200A275EC /* BenjaminNotesTests */,
+				8AFCD12519C1B73200A275EC /* Frameworks */,
+				8AFCD12419C1B73200A275EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AFCD12419C1B73200A275EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AFCD12319C1B73200A275EC /* BenjaminNotes.app */,
+				8AFCD14419C1B73200A275EC /* BenjaminNotesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AFCD12519C1B73200A275EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AFCD12619C1B73200A275EC /* Foundation.framework */,
+				8AFCD12819C1B73200A275EC /* CoreGraphics.framework */,
+				8AFCD12A19C1B73200A275EC /* UIKit.framework */,
+				8AFCD14519C1B73200A275EC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AFCD12C19C1B73200A275EC /* BenjaminNotes */ = {
+			isa = PBXGroup;
+			children = (
+				8AFCD13519C1B73200A275EC /* AppDelegate.h */,
+				8AFCD13619C1B73200A275EC /* AppDelegate.m */,
+				8AFCD13819C1B73200A275EC /* Main.storyboard */,
+				8AFCD13B19C1B73200A275EC /* ViewController.h */,
+				8AFCD13C19C1B73200A275EC /* ViewController.m */,
+				8AFCD13E19C1B73200A275EC /* Images.xcassets */,
+				8AFCD12D19C1B73200A275EC /* Supporting Files */,
+			);
+			path = BenjaminNotes;
+			sourceTree = "<group>";
+		};
+		8AFCD12D19C1B73200A275EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AFCD12E19C1B73200A275EC /* BenjaminNotes-Info.plist */,
+				8AFCD12F19C1B73200A275EC /* InfoPlist.strings */,
+				8AFCD13219C1B73200A275EC /* main.m */,
+				8AFCD13419C1B73200A275EC /* BenjaminNotes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AFCD14B19C1B73200A275EC /* BenjaminNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AFCD15119C1B73200A275EC /* BenjaminNotesTests.m */,
+				8AFCD14C19C1B73200A275EC /* Supporting Files */,
+			);
+			path = BenjaminNotesTests;
+			sourceTree = "<group>";
+		};
+		8AFCD14C19C1B73200A275EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AFCD14D19C1B73200A275EC /* BenjaminNotesTests-Info.plist */,
+				8AFCD14E19C1B73200A275EC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AFCD12219C1B73200A275EC /* BenjaminNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AFCD15519C1B73200A275EC /* Build configuration list for PBXNativeTarget "BenjaminNotes" */;
+			buildPhases = (
+				8AFCD11F19C1B73200A275EC /* Sources */,
+				8AFCD12019C1B73200A275EC /* Frameworks */,
+				8AFCD12119C1B73200A275EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BenjaminNotes;
+			productName = BenjaminNotes;
+			productReference = 8AFCD12319C1B73200A275EC /* BenjaminNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AFCD14319C1B73200A275EC /* BenjaminNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AFCD15819C1B73200A275EC /* Build configuration list for PBXNativeTarget "BenjaminNotesTests" */;
+			buildPhases = (
+				8AFCD14019C1B73200A275EC /* Sources */,
+				8AFCD14119C1B73200A275EC /* Frameworks */,
+				8AFCD14219C1B73200A275EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AFCD14A19C1B73200A275EC /* PBXTargetDependency */,
+			);
+			name = BenjaminNotesTests;
+			productName = BenjaminNotesTests;
+			productReference = 8AFCD14419C1B73200A275EC /* BenjaminNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AFCD11B19C1B73100A275EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = shirish;
+				TargetAttributes = {
+					8AFCD14319C1B73200A275EC = {
+						TestTargetID = 8AFCD12219C1B73200A275EC;
+					};
+				};
+			};
+			buildConfigurationList = 8AFCD11E19C1B73100A275EC /* Build configuration list for PBXProject "BenjaminNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AFCD11A19C1B73100A275EC;
+			productRefGroup = 8AFCD12419C1B73200A275EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AFCD12219C1B73200A275EC /* BenjaminNotes */,
+				8AFCD14319C1B73200A275EC /* BenjaminNotesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AFCD12119C1B73200A275EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFCD13F19C1B73200A275EC /* Images.xcassets in Resources */,
+				8AFCD13119C1B73200A275EC /* InfoPlist.strings in Resources */,
+				8AFCD13A19C1B73200A275EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFCD14219C1B73200A275EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFCD15019C1B73200A275EC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AFCD11F19C1B73200A275EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFCD13D19C1B73200A275EC /* ViewController.m in Sources */,
+				8AFCD13719C1B73200A275EC /* AppDelegate.m in Sources */,
+				8AFCD13319C1B73200A275EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFCD14019C1B73200A275EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFCD15219C1B73200A275EC /* BenjaminNotesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AFCD14A19C1B73200A275EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AFCD12219C1B73200A275EC /* BenjaminNotes */;
+			targetProxy = 8AFCD14919C1B73200A275EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AFCD12F19C1B73200A275EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AFCD13019C1B73200A275EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8AFCD13819C1B73200A275EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AFCD13919C1B73200A275EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AFCD14E19C1B73200A275EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AFCD14F19C1B73200A275EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AFCD15319C1B73200A275EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8AFCD15419C1B73200A275EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AFCD15619C1B73200A275EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BenjaminNotes/BenjaminNotes-Prefix.pch";
+				INFOPLIST_FILE = "BenjaminNotes/BenjaminNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8AFCD15719C1B73200A275EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BenjaminNotes/BenjaminNotes-Prefix.pch";
+				INFOPLIST_FILE = "BenjaminNotes/BenjaminNotes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8AFCD15919C1B73200A275EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BenjaminNotes.app/BenjaminNotes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BenjaminNotes/BenjaminNotes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BenjaminNotesTests/BenjaminNotesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8AFCD15A19C1B73200A275EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BenjaminNotes.app/BenjaminNotes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BenjaminNotes/BenjaminNotes-Prefix.pch";
+				INFOPLIST_FILE = "BenjaminNotesTests/BenjaminNotesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AFCD11E19C1B73100A275EC /* Build configuration list for PBXProject "BenjaminNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFCD15319C1B73200A275EC /* Debug */,
+				8AFCD15419C1B73200A275EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AFCD15519C1B73200A275EC /* Build configuration list for PBXNativeTarget "BenjaminNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFCD15619C1B73200A275EC /* Debug */,
+				8AFCD15719C1B73200A275EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AFCD15819C1B73200A275EC /* Build configuration list for PBXNativeTarget "BenjaminNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFCD15919C1B73200A275EC /* Debug */,
+				8AFCD15A19C1B73200A275EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AFCD11B19C1B73100A275EC /* Project object */;
+}
