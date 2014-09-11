@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : NSObject <UIApplicationDelegate>
+{
+    UIWindow *window;
+    UINavigationController *navigationController;
 
-@property (strong, nonatomic) UIWindow *window;
+}
+
+@property (retain, nonatomic) IBOutlet UIWindow *window;
+@property (retain, nonatomic) IBOutlet UINavigationController *navigationController;
+
 
 @end

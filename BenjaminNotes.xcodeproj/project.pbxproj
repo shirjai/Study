@@ -21,6 +21,7 @@
 		8AFCD14819C1B73200A275EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AFCD12A19C1B73200A275EC /* UIKit.framework */; };
 		8AFCD15019C1B73200A275EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AFCD14E19C1B73200A275EC /* InfoPlist.strings */; };
 		8AFCD15219C1B73200A275EC /* BenjaminNotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCD15119C1B73200A275EC /* BenjaminNotesTests.m */; };
+		8AFCD15C19C1B9A700A275EC /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AFCD15B19C1B9A700A275EC /* Window.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		8AFCD14D19C1B73200A275EC /* BenjaminNotesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BenjaminNotesTests-Info.plist"; sourceTree = "<group>"; };
 		8AFCD14F19C1B73200A275EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8AFCD15119C1B73200A275EC /* BenjaminNotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BenjaminNotesTests.m; sourceTree = "<group>"; };
+		8AFCD15B19C1B9A700A275EC /* Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				8AFCD13C19C1B73200A275EC /* ViewController.m */,
 				8AFCD13E19C1B73200A275EC /* Images.xcassets */,
 				8AFCD12D19C1B73200A275EC /* Supporting Files */,
+				8AFCD15B19C1B9A700A275EC /* Window.xib */,
 			);
 			path = BenjaminNotes;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				8AFCD13F19C1B73200A275EC /* Images.xcassets in Resources */,
 				8AFCD13119C1B73200A275EC /* InfoPlist.strings in Resources */,
 				8AFCD13A19C1B73200A275EC /* Main.storyboard in Resources */,
+				8AFCD15C19C1B9A700A275EC /* Window.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
