@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RootViewController.h"
 
 @interface AppDelegate : NSObject <UIApplicationDelegate>
 {
@@ -18,5 +19,6 @@
 @property (retain, nonatomic) IBOutlet UIWindow *window;
 @property (retain, nonatomic) IBOutlet UINavigationController *navigationController;
 
+//@property (strong, nonatomic) RootViewController *rootViewController;
 
 @end

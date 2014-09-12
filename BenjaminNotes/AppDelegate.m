@@ -17,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //self.rootViewController = [[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil];
+    //self.window.rootViewController = self.rootViewController;
+    
     [self.window addSubview:[navigationController view]];
     [self.window makeKeyAndVisible];
     

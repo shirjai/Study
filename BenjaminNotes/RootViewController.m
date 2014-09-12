@@ -85,6 +85,13 @@
     return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+	
+	// important to reload data when view is redrawn
+	[self.tableView reloadData];
+}
+
 - (IBAction)add:(id)sender {
 }
 - (IBAction)addButtonPressed:(id)sender {
