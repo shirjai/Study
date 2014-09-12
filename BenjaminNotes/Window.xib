@@ -33,7 +33,7 @@
                 <autoresizingMask key="autoresizingMask"/>
             </navigationBar>
             <viewControllers>
-                <viewController id="SHJ-62-iqq">
+                <viewController id="SHJ-62-iqq" customClass="RootViewController">
                     <toolbarItems>
                         <barButtonItem title="Help" id="hdo-hA-pzK"/>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="A3L-0Q-P9F"/>

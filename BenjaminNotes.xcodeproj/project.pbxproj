@@ -22,6 +22,8 @@
 		8AFCD15019C1B73200A275EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AFCD14E19C1B73200A275EC /* InfoPlist.strings */; };
 		8AFCD15219C1B73200A275EC /* BenjaminNotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCD15119C1B73200A275EC /* BenjaminNotesTests.m */; };
 		8AFCD15C19C1B9A700A275EC /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AFCD15B19C1B9A700A275EC /* Window.xib */; };
+		8AFCD16319C1E0DB00A275EC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCD16119C1E0DB00A275EC /* RootViewController.m */; };
+		8AFCD16419C1E0DB00A275EC /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AFCD16219C1E0DB00A275EC /* RootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		8AFCD14F19C1B73200A275EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8AFCD15119C1B73200A275EC /* BenjaminNotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BenjaminNotesTests.m; sourceTree = "<group>"; };
 		8AFCD15B19C1B9A700A275EC /* Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
+		8AFCD16019C1E0DB00A275EC /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		8AFCD16119C1E0DB00A275EC /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		8AFCD16219C1E0DB00A275EC /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +121,9 @@
 			children = (
 				8AFCD13519C1B73200A275EC /* AppDelegate.h */,
 				8AFCD13619C1B73200A275EC /* AppDelegate.m */,
+				8AFCD16019C1E0DB00A275EC /* RootViewController.h */,
+				8AFCD16119C1E0DB00A275EC /* RootViewController.m */,
+				8AFCD16219C1E0DB00A275EC /* RootViewController.xib */,
 				8AFCD13819C1B73200A275EC /* Main.storyboard */,
 				8AFCD13B19C1B73200A275EC /* ViewController.h */,
 				8AFCD13C19C1B73200A275EC /* ViewController.m */,
@@ -233,6 +241,7 @@
 			files = (
 				8AFCD13F19C1B73200A275EC /* Images.xcassets in Resources */,
 				8AFCD13119C1B73200A275EC /* InfoPlist.strings in Resources */,
+				8AFCD16419C1E0DB00A275EC /* RootViewController.xib in Resources */,
 				8AFCD13A19C1B73200A275EC /* Main.storyboard in Resources */,
 				8AFCD15C19C1B9A700A275EC /* Window.xib in Resources */,
 			);
@@ -255,6 +264,7 @@
 			files = (
 				8AFCD13D19C1B73200A275EC /* ViewController.m in Sources */,
 				8AFCD13719C1B73200A275EC /* AppDelegate.m in Sources */,
+				8AFCD16319C1E0DB00A275EC /* RootViewController.m in Sources */,
 				8AFCD13319C1B73200A275EC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
